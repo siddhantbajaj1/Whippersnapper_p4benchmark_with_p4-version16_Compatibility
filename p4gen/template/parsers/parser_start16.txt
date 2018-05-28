@@ -1,0 +1,3 @@
+	@name(".start") state start {
+        transition parse_ethernet;
+    }

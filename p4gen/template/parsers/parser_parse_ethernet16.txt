@@ -1,0 +1,7 @@
+@name(".parse_ethernet") state parse_ethernet {
+        packet.extract(hdr.ethernet);
+        transition select(hdr.ethernet.etherType) {
+            16w0x88f7: parse_ptp;
+            default: accept;
+        }
+    }
