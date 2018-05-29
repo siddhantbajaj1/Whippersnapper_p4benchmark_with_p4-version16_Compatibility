@@ -1,11 +1,11 @@
-# Whispersnapper_p4benchmark_with_p4-version-16_compatibility
-This repository contains modifications done to the Whispersnapper P4 benchmark so as to generate P4 Version-16 codes which can help in the evaluation of the "PARSING FEATURE" of a P4 compiler.
+# Whippersnapper_p4benchmark_with_p4-version-16_compatibility
+This repository contains modifications done to the Whippersnapper P4 benchmark so as to generate P4 Version-16 codes which can help in the evaluation of the "PARSING FEATURE" of a P4 compiler.
 
 # INTRODUCTION
 P4 is a programming language designed to allow programming of packet forwarding planes. In contrast to a general purpose language such as C or Python, P4 is a domain-specific language with a number of constructs optimized around network data forwarding. P4 is an open-source, permissively licensed language and is maintained by a non-profit organization called the P4 Language Consortium. The language was originally described in a SIGCOMM CCR paper in 2014 titled “Programming Protocol-Independent Packet Processors”.
 
-# Whispersnapper
-As P4 and its associated compilers move beyond relative immaturity, there is a need for common evaluation criteria. Overall, whispersnapper has the following functionality:
+# Whippersnapper
+As P4 and its associated compilers move beyond relative immaturity, there is a need for common evaluation criteria. Overall, whippersnapper has the following functionality:
 
 • It identifies key language features, metrics, and parameters for evaluating P4 programs.
 
@@ -15,11 +15,11 @@ As P4 and its associated compilers move beyond relative immaturity, there is a n
 
 Some useful links :-
 
-1. Whispersnapper research paper - https://conferences.sigcomm.org/sosr/2017/papers/sosr17-whippersnapper.pdf
+1. Whippersnapper research paper - https://conferences.sigcomm.org/sosr/2017/papers/sosr17-whippersnapper.pdf
 
-2. Original whispersnapper repository - https://github.com/usi-systems/p4benchmark
+2. Original whippersnapper repository - https://github.com/usi-systems/p4benchmark
 
-The original whispersnapper repository creates p4-14 codes to evaluate p4 compilers for various features. This repository contains an extra added feature which can help generate p4-16 (new version) codes too along with all other features provided by the original repository. This functionality has only been implemented for the "PASRING FEATURE" of the p4 benchmark. The output is obtained in the 'output_16' directory.
+The original whippersnapper repository creates p4-14 codes to evaluate p4 compilers for various features. This repository contains an extra added feature which can help generate p4-16 (new version) codes too along with all other features provided by the original repository. This functionality has only been implemented for the "PASRING FEATURE" of the p4 benchmark. The output is obtained in the 'output_16' directory.
 
 Installation
 ------------
